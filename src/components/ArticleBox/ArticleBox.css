@@ -1,0 +1,23 @@
+.subject
+{
+	display:inline-block;
+	width: auto;
+}
+
+.subject a
+{
+	opacity:0.9;
+}
+
+.subject a:hover
+{
+	opacity:1;
+}
+
+figure
+{
+	margin:8px;
+	padding:0px;
+	height: auto;
+	background-color: black;
+}

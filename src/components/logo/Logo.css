@@ -1,0 +1,21 @@
+#logotyp
+{
+	background-image: url("./cartographer.png");
+	background-size: auto;
+	width: 100%;
+	height:138px;
+}
+
+h1.logo
+{
+	font-size:44px;
+	font-weight:700;
+	color:#ddd;
+	text-align: center;
+	text-transform:uppercase;
+	letter-spacing: 5px;
+	margin-top:0px;
+	margin-bottom:38px;
+	line-height:132px;
+	width:100%;
+}

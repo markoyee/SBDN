@@ -1,10 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+import 'leaflet/dist/leaflet.css';
+import 'bootstrap/dist/css/bootstrap.css';
+
+import Logo from './components/logo/Logo';
+import Container from './components/container/Container';
+import App from './App'
+
+
+import * as serviceWorker from './serviceWorker';
+import 'tachyons';
+
+ReactDOM.render(
+				<div>
+					<Logo/>,
+					<Container/>,
+					<App/>
+				</div>,
+				 document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
